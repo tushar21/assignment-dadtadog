@@ -5,6 +5,6 @@ require('dotenv').config()
 export class AppService {
   getHello(): string {
     console.log(process.env.PORT,'sdfsf')
-    return 'Hello World!ad';
+    return 'Hello World';
   }  
 }
